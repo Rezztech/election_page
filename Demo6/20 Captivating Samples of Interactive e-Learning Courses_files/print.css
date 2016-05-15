@@ -1,0 +1,153 @@
+/* line 1, ../scss/print.scss */
+html, body {
+  height: auto !important;
+}
+
+/* line 6, ../scss/print.scss */
+body {
+  background: white;
+  font-size: 16pt !important;
+}
+
+/* line 12, ../scss/print.scss */
+a:link, a:visited {
+  color: #11609D;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 20, ../scss/print.scss */
+.main_container {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* line 26, ../scss/print.scss */
+.sub_container {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* line 32, ../scss/print.scss */
+.main_div {
+  padding-bottom: 0 !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* line 39, ../scss/print.scss */
+.top_menu {
+  display: none;
+}
+
+/* line 44, ../scss/print.scss */
+.footer {
+  display: none;
+}
+
+/* line 49, ../scss/print.scss */
+.right_panel {
+  display: none;
+}
+
+/* line 54, ../scss/print.scss */
+.content {
+  background: transparent;
+  color: black;
+  float: none !important;
+  margin: 0 5%;
+  width: auto;
+}
+
+/* line 63, ../scss/print.scss */
+.noprint {
+  display: none;
+}
+
+/* line 68, ../scss/print.scss */
+div.step_content {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* line 74, ../scss/print.scss */
+body a.print_link {
+  display: none;
+}
+
+/* line 79, ../scss/print.scss */
+body .shopping_cart_menu {
+  width: 810px;
+}
+
+/* line 84, ../scss/print.scss */
+div.payment_information .title, div.items .title {
+  background: none;
+  border-bottom: 1px solid #000;
+}
+
+/* line 91, ../scss/print.scss */
+body div.payment_information_wrapper {
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+/* line 97, ../scss/print.scss */
+body div.payment_information_wrapper .items {
+  border-top: 1px solid #000;
+}
+
+/* line 102, ../scss/print.scss */
+body div.payment_information_wrapper table.product_table tr.product_info td {
+  border-bottom: 1px solid #000;
+}
+
+/* line 107, ../scss/print.scss */
+body .sub_container {
+  width: auto;
+}
+
+/* line 112, ../scss/print.scss */
+body .order_status p.order_name {
+  font-family: Arial;
+}
+
+/* line 117, ../scss/print.scss */
+body .order_status h2 {
+  font-family: Arial;
+}
+
+/*shopping-cart style begin*/
+/* line 123, ../scss/print.scss */
+.shopping_cart_footer_container {
+  display: none;
+}
+
+/* line 128, ../scss/print.scss */
+.step_content.order_status {
+  width: 1018px;
+  font-size: 18pt !important;
+}
+
+/* line 134, ../scss/print.scss */
+.survey_container {
+  display: none !important;
+}
+
+/* line 139, ../scss/print.scss */
+.order_status h3,
+.order_status p,
+.order_status div,
+.order_status span {
+  font-size: 18pt !important;
+  line-height: 1.3;
+}
+
+/* line 148, ../scss/print.scss */
+.order_status .person_info_item div {
+  font-size: 16pt !important;
+  line-height: 2;
+}
+
+/*shopping-cart style end*/
